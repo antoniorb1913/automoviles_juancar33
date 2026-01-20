@@ -3,30 +3,25 @@
 ### Endpoint --> Listado venta -> api/sales
 ### Endpoint --> Crear venta -> api/sale
 
-- Datos de prueba
-  
-  <br>
-  
-        ```json
-            {
-                "amount": 50.00,
-                "sale_date": "2026-01-20",
-                "seller_id": 1,
-                "client_id": 2,
-                "car_id": 1 
-            }
-        ```
+#### Ejemplo de Petición (Request Body)
+
+    ```json
+    {
+        "amount": 50.00,
+        "sale_date": "2026-01-20",
+        "seller_id": 1,
+        "client_id": 2,
+        "car_id": 1 
+    }
 
 ### Endpoint --> Cambiar estado -> api/status
 
-- Datos de prueba
-  
-  <br>
-  
-        ```json
-            {
-                "saleId": 1,
-                "status": "PAID"
-            }
-        ```
+#### Ejemplo de Petición (Request Body)
+
+    ```json
+    {
+        "saleId": 1,
+        "status": "PAID"
+    }
+      
 
