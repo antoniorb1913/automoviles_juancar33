@@ -3,7 +3,7 @@
 ### Endpoint --> Listado venta -> api/sales
 ### Endpoint --> Crear venta -> api/sale
 
-    - Datos de prueba
+- Datos de prueba
         ```json
             {
                 "amount": 50.00,
@@ -16,7 +16,7 @@
 
 ### Endpoint --> Cambiar estado -> api/status
 
-    - Datos de prueba
+- Datos de prueba
         ```json
             {
                 "saleId": 1,
